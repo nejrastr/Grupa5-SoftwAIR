@@ -6,7 +6,7 @@ Korisnik će moći na vrlo jednostavan i pouzdan način komunicirati sa sistemom
 Korisnik sa aplikacijom komunicira putem korisničkog interfejsa, a početni zaslon aplikacije jasno prikazuje sve opcije koje su korisniku dostupne.
 
 ### **Tim:**
-Ahmed Mahovac
-Hamza Begić
+Ahmed Mahovac <br/>
+Hamza Begić <br/>
 Emir Osmanspahić
 
