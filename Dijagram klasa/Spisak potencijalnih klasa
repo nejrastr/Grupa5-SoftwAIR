@@ -1,4 +1,4 @@
-NARUDZBA (ID, broj_karti(int))
+NARUDZBA (ID, karte(list of Karta))
 
 KARTA (let (LET), tip_karte(enum tip_karte), cijena (double), klasa(enum klasa_leta), ID(int))
 
