@@ -1,0 +1,17 @@
+Klase:
+
+NARUDZBA (ID, broj_karti(int))
+
+KARTA (let (LET), tip_karte(enum tip_karte), cijena (double), klasa(enum klasa_leta), ID(int))
+
+LET(polaziste(lokacija),odrediste(lokacija),polazni_datum(Date),avion(Avion),status(enum status), id(int))
+
+AVION(ime(string), broj_mjesta_biznis(int), broj_mjesta_ekonomska(int))
+
+KORISNIK (ime (string), prezime (string), email (string), broj(int), loyalty_clan(bool), narudzbe(array narudzba))
+
+LOKACIJA (grad (Grad), String (aerodrom))
+
+GRAD (ime_grada(string))
+
+AERODROM (ime_aerodroma(string))
