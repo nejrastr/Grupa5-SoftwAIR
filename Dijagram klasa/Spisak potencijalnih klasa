@@ -1,0 +1,19 @@
+NARUDZBA (ID, karte(list of Karta))
+
+KARTA (let (LET), tip_karte(enum tip_karte), cijena (double), klasa(enum klasa_leta), ID(int))
+
+LET(polaziste(lokacija),odrediste(lokacija),polazni_datum(Date),avion(Avion),status(enum status), id(int))
+
+AVION(ime(string), broj_mjesta_biznis(int), broj_mjesta_ekonomska(int), broj_mjesta_prva(int))
+
+KUPAC (ime (string), prezime (string), email (string), broj(int), loyalty_clan(bool), gift_kodovi(list of GiftKod), kupljene_karte(list of Karta))
+
+LOKACIJA (grad (Grad), aerodrom (Aerodrom))
+
+GRAD (ime_grada(string))
+
+AERODROM (naziv_aerodroma(string))
+
+GIFT KOD (kod(String), expiration_date(Date), kupac(Kupac))
+
+REFUND ZAHTJEV(id(long), kupac(KUPAC), odobren(boolean), datum_podnosenja(Date))
