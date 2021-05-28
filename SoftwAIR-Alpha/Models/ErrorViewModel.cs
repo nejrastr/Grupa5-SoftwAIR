@@ -1,6 +1,6 @@
 using System;
 
-namespace SoftwAIR.Models
+namespace SoftwAIR_Alpha.Models
 {
     public class ErrorViewModel
     {

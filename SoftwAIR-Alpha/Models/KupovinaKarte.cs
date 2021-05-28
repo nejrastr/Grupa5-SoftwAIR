@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SoftwAIR.Models
+namespace SoftwAIR_Alpha.Models
 {
     public class KupovinaKarte : Kupovina
     {

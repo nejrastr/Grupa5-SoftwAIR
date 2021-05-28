@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace SoftwAIR.Models
+namespace SoftwAIR_Alpha.Models
 {
     public class Klasa
     {

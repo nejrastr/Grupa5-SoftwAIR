@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SoftwAIR.Models
+namespace SoftwAIR_Alpha.Models
 {
     public class RefundZahtjev
     {
