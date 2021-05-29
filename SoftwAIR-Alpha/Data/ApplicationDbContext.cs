@@ -14,5 +14,11 @@ namespace SoftwAIR_Alpha.Data
         {
         }
         public DbSet<SoftwAIR_Alpha.Models.Avion> Avion { get; set; }
+
+        protected override void OnModelCreating (ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Avion>().ToTable("Avion");
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
