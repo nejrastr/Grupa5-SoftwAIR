@@ -17,6 +17,7 @@ namespace SoftwAIR_Alpha.Models
         public KupovinaGiftKoda(int ID, String statusKupovine, DateTime datumKupovine, int idKupca, GiftKod giftkod) : base(ID, statusKupovine, datumKupovine, idKupca) {
             this.giftkod = giftkod;
         }
+        public KupovinaGiftKoda() { }
         #endregion
 
         #region Methods

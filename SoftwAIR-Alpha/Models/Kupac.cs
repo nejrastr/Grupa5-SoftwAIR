@@ -19,11 +19,14 @@ namespace SoftwAIR_Alpha.Models
         [Required]
         public Boolean loyaltyClan { get; set; }
         [Required]
+        [EmailAddress]
         public String email { get; set; }
         [Required]
+        [Phone]
         public String broj { get; set; }
         #endregion
 
+        #region Constructor
         public Kupac(int ID, String ime, String prezime, Boolean loyaltyClan, String email, String broj) {
             this.ID = ID;
             this.ime = ime;
@@ -32,6 +35,8 @@ namespace SoftwAIR_Alpha.Models
             this.email = email;
             this.broj = broj;
         }
+        public Kupac() { }
+        #endregion
 
         public void zavediNarudzbu(Kupovina kupovina) {
             //TODO

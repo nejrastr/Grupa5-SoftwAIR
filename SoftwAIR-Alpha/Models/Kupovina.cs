@@ -28,6 +28,7 @@ namespace SoftwAIR_Alpha.Models
             this.datumKupovine = datumKupovine;
             this.idKupca = idKupca;
         }
+        public Kupovina() { }
         #endregion
 
         #region Methods

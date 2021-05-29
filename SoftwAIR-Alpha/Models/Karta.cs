@@ -31,6 +31,7 @@ namespace SoftwAIR_Alpha.Models
             this.povratniLet = povratniLet;
 
         }
+        public Karta() { }
         #endregion
 
         #region Methods

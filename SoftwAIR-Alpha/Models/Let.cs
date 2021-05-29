@@ -12,18 +12,18 @@ namespace SoftwAIR_Alpha.Models
         #region Properties
         [Required]
         [Key]
-        public int ID { get; } //ne bi mogli biti u mogucnosti kroz app mijenjati ID leta, jer cemo ga dodavati kroz bazu ?
+        public int ID { get; set; } //ne bi mogli biti u mogucnosti kroz app mijenjati ID leta, jer cemo ga dodavati kroz bazu ?
         [Required]
-        public int kodZaStatusLeta { get; } //moze li ovo biti samo ID;
+        public int kodZaStatusLeta { get; set; } //moze li ovo biti samo ID;
         [Required]
-        public Lokacija polazak { get; } // sve osim naPopustuLoyalty i statusLeta ce se moci samo citati iz baze. Ako zelimo promijeniti moramo mijenjati bazu.
+        public Lokacija polazak { get; set; } // sve osim naPopustuLoyalty i statusLeta ce se moci samo citati iz baze. Ako zelimo promijeniti moramo mijenjati bazu.
         [Required]
-        public Lokacija dolazak { get; }
+        public Lokacija dolazak { get; set; }
         [Required]
-        public Avion avion { get; }
-        public DateTime vrijemePolaska { get; }
-        public DateTime vrijemeDolaska { get; }
-        public Double osnovnaCijena { get; }
+        public Avion avion { get; set; }
+        public DateTime vrijemePolaska { get; set; }
+        public DateTime vrijemeDolaska { get; set; }
+        public Double osnovnaCijena { get; set; }
         public Boolean naPopustuZaLoyalty { get; set; }
         public StatusLeta statusLeta { get; set; }
         #endregion

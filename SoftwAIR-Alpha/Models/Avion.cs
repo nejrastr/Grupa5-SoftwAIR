@@ -11,13 +11,18 @@ namespace SoftwAIR_Alpha.Models
         #region Properties
         [Required]
         [Key]
-        public int ID { get; }
+        public int ID { get; set; }
         [Required]
-        public int brojMjestaPrva { get; }
+        [Range(0,1000, ErrorMessage = "Broj slobodnih mjesta mora biti pozitivan")]
+        public int brojMjestaPrva { get; set; }
         [Required]
-        public int brojMjestaBiznis { get; }
+        [Range(0, 1000, ErrorMessage = "Broj slobodnih mjesta mora biti pozitivan")]
+        public int brojMjestaBiznis { get; set; }
         [Required]
-        public int brojMjestaEconomy { get; }
+        [Range(0, 1000, ErrorMessage = "Broj slobodnih mjesta mora biti pozitivan")]
+        public int brojMjestaEconomy { get; set; }
+        
+
         #endregion
 
         #region Constructors
@@ -27,7 +32,9 @@ namespace SoftwAIR_Alpha.Models
             this.brojMjestaPrva = brojMjestaPrva;
             this.brojMjestaBiznis = brojMjestaBiznis;
             this.brojMjestaEconomy = brojMjestaEconomy;
+            
         }
+        public Avion() { }
         #endregion
 
         #region Methods

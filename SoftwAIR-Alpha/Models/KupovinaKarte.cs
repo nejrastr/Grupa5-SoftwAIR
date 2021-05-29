@@ -35,6 +35,7 @@ namespace SoftwAIR_Alpha.Models
             this.listaKarata = listaKarata;
             
         }
+        public KupovinaKarte() { }
         #endregion
 
         #region Methods
