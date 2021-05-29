@@ -32,7 +32,7 @@
       "SoftwAIR-Alpha/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.12",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.12",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.15",
           "Microsoft.AspNetCore.Identity.UI": "3.1.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.15",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.15",
@@ -426,15 +426,15 @@
           "System.Text.Encodings.Web": "4.5.0"
         }
       },
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.12": {
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.15": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "3.1.15",
           "Microsoft.Extensions.Identity.Stores": "3.1.15"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
-            "assemblyVersion": "3.1.12.0",
-            "fileVersion": "3.100.1221.7012"
+            "assemblyVersion": "3.1.15.0",
+            "fileVersion": "3.100.1521.21512"
           }
         },
         "compile": {
@@ -4231,12 +4231,12 @@
       "path": "microsoft.aspnetcore.html.abstractions/2.2.0",
       "hashPath": "microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.12": {
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bLjGSh4K9tA8MdrOdAUOwJMYvtBMmr7MQDP6wcKTEv+56l8moHTahR51n6mMuMBv5YNbwGmRyGoLCuCZLelK6g==",
-      "path": "microsoft.aspnetcore.identity.entityframeworkcore/3.1.12",
-      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.3.1.12.nupkg.sha512"
+      "sha512": "sha512-s6bB80/VGeXiUmEiExEPv1QZXhwk40LkHKIDdVlJd7DKxhib28y38r6KHKJIUFhUaN/WRdupDrqGiPDM31dy1w==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/3.1.15",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.3.1.15.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.UI/3.1.15": {
       "type": "package",

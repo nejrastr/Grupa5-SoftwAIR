@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QtyZyKxIK50eAVpygQtf1/QA78UO1uBTZmjsTOrpD6p9pB8Qm1jPMP7rAt8zG4/GFFTCCWGxFRTuM/d+uZncrg==",
+  "dgSpecHash": "jRdRFBFuX/QRFtthLCfV2Gs9C7HQzAUFVtCHwq0bJY+9G1zqtGdsji8yFESrAtzttJO3+/7muJaKLdqy4zHDig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\johnny\\source\\repos\\SoftwAIR-Alpha\\SoftwAIR-Alpha.csproj",
+  "projectFilePath": "C:\\Users\\johnny\\Desktop\\Grupa5-SoftwAIR\\SoftwAIR-Alpha\\SoftwAIR-Alpha.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johnny\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\johnny\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
@@ -13,7 +13,7 @@
     "C:\\Users\\johnny\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.15\\microsoft.aspnetcore.cryptography.keyderivation.3.1.15.nupkg.sha512",
     "C:\\Users\\johnny\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.12\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.12.nupkg.sha512",
     "C:\\Users\\johnny\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\johnny\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.12\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.12.nupkg.sha512",
+    "C:\\Users\\johnny\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.15\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.15.nupkg.sha512",
     "C:\\Users\\johnny\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\3.1.15\\microsoft.aspnetcore.identity.ui.3.1.15.nupkg.sha512",
     "C:\\Users\\johnny\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\johnny\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

@@ -113,11 +113,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.12": {
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.15": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.12",
-          "Microsoft.Extensions.Identity.Stores": "3.1.12"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.15",
+          "Microsoft.Extensions.Identity.Stores": "3.1.15"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
@@ -3172,10 +3172,10 @@
         "microsoft.aspnetcore.html.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.12": {
-      "sha512": "bLjGSh4K9tA8MdrOdAUOwJMYvtBMmr7MQDP6wcKTEv+56l8moHTahR51n6mMuMBv5YNbwGmRyGoLCuCZLelK6g==",
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.15": {
+      "sha512": "s6bB80/VGeXiUmEiExEPv1QZXhwk40LkHKIDdVlJd7DKxhib28y38r6KHKJIUFhUaN/WRdupDrqGiPDM31dy1w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.identity.entityframeworkcore/3.1.12",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/3.1.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3185,7 +3185,7 @@
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
         "lib/netstandard2.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
         "lib/netstandard2.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
-        "microsoft.aspnetcore.identity.entityframeworkcore.3.1.12.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.3.1.15.nupkg.sha512",
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
@@ -9657,7 +9657,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.12",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.12",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.15",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.15",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.15",
@@ -9672,11 +9672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johnny\\source\\repos\\SoftwAIR-Alpha\\SoftwAIR-Alpha.csproj",
+      "projectUniqueName": "C:\\Users\\johnny\\Desktop\\Grupa5-SoftwAIR\\SoftwAIR-Alpha\\SoftwAIR-Alpha.csproj",
       "projectName": "SoftwAIR-Alpha",
-      "projectPath": "C:\\Users\\johnny\\source\\repos\\SoftwAIR-Alpha\\SoftwAIR-Alpha.csproj",
+      "projectPath": "C:\\Users\\johnny\\Desktop\\Grupa5-SoftwAIR\\SoftwAIR-Alpha\\SoftwAIR-Alpha.csproj",
       "packagesPath": "C:\\Users\\johnny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johnny\\source\\repos\\SoftwAIR-Alpha\\obj\\",
+      "outputPath": "C:\\Users\\johnny\\Desktop\\Grupa5-SoftwAIR\\SoftwAIR-Alpha\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9715,7 +9715,7 @@
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[3.1.12, )"
+            "version": "[3.1.15, )"
           },
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
