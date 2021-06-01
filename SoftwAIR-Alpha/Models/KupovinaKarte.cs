@@ -11,14 +11,22 @@ namespace SoftwAIR_Alpha.Models
     {
         #region Properties
         [Required]
+        [Range(0.1, double.MaxValue, ErrorMessage = "Vrijednost mora biti veca od 0!")]
         public int brojKarti { get; set; }
+
         [Required]
+        [DataType(DataType.Date)]
         public DateTime datumPolaska { get; set; }
+
         [Required]
         public Lokacija lokacijaPolaska { get; set; }
+
         [Required]
         public Lokacija lokacijaOdredista { get; set; }
+
+        [DataType(DataType.Date)] 
         public DateTime datumPovratka { get; set; } //nije required jer ne mora biti povratna karta
+
         [NotMapped]
         [Required]
         public List<Karta> listaKarata { get; set; }

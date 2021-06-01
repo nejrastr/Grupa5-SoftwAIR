@@ -13,6 +13,7 @@ namespace SoftwAIR_Alpha.Models
         [Key]
         public int ID { get; set; }
         [Required]
+        [DataType(DataType.Date)]
         public DateTime vrijemePodnosenja { get; set; }
         [Required]
         public String statusZahtjeva { get; set; }

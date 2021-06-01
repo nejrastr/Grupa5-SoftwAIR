@@ -17,6 +17,7 @@ namespace SoftwAIR_Alpha.Models
         [Required]
         public Klasa klasa { get; set; }
         [Required]
+        [Range(0.1, double.MaxValue, ErrorMessage = "Vrijednost mora biti veca od 0!")]
         public double cijena { get; set; }
         public Let povratniLet { get; set; }
         #endregion

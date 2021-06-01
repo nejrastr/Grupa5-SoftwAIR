@@ -12,27 +12,41 @@ namespace SoftwAIR_Alpha.Models
         #region Properties
         [Required]
         [Key]
-        public int ID { get; set; } //ne bi mogli biti u mogucnosti kroz app mijenjati ID leta, jer cemo ga dodavati kroz bazu ?
+        public int ID { get; set; } 
+
         [Required]
-        public int kodZaStatusLeta { get; set; } //moze li ovo biti samo ID;
-        [Required]
-        public Lokacija polazak { get; set; } // sve osim naPopustuLoyalty i statusLeta ce se moci samo citati iz baze. Ako zelimo promijeniti moramo mijenjati bazu.
+        public Lokacija polazak { get; set; } 
+
         [Required]
         public Lokacija dolazak { get; set; }
+
         [Required]
         public Avion avion { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
         public DateTime vrijemePolaska { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
         public DateTime vrijemeDolaska { get; set; }
+
+        [Required]
+        [Range(0.1, double.MaxValue, ErrorMessage = "Vrijednost mora biti veca od 0!" )]
         public Double osnovnaCijena { get; set; }
+
+        [Required]
         public Boolean naPopustuZaLoyalty { get; set; }
+
+        [Required]
+        [EnumDataType(typeof(StatusLeta))]
         public StatusLeta statusLeta { get; set; }
         #endregion
 
         #region Constructor
-        public Let(int ID, int kodZaStatusLeta, Lokacija polazak, Lokacija dolazak, Avion avion, DateTime vrijemePolaska, DateTime vrijemeDolaska, Double osnovnaCijena, Boolean naPopustuZaLoyalty, StatusLeta statusLeta)
+        public Let(int ID, Lokacija polazak, Lokacija dolazak, Avion avion, DateTime vrijemePolaska, DateTime vrijemeDolaska, Double osnovnaCijena, Boolean naPopustuZaLoyalty, StatusLeta statusLeta)
         {
             this.ID = ID;
-            this.kodZaStatusLeta = kodZaStatusLeta;
             this.polazak = polazak;
             this.dolazak = dolazak;
             this.avion = avion;
