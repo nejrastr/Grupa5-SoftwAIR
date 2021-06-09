@@ -10,6 +10,9 @@ namespace SoftwAIR_Alpha.Models
     {
         #region Properties
         [Required]
+        [Key]
+        public int id { get; set; }
+        [Required]
         public String kod { get; set; }
         [Required]
         public Kupac kupac { get; set; }

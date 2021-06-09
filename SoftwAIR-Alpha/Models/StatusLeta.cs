@@ -6,9 +6,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SoftwAIR_Alpha.Models
 {
-    public class StatusLeta
-    {
-        public enum StatusLetaEnum
+    
+        public enum EnumStatusLeta
         {
             [Display(Name = "Neaktivan")]
             NEAKTIVAN,
@@ -18,8 +17,5 @@ namespace SoftwAIR_Alpha.Models
             UZRAKU
         }
 
-        public StatusLetaEnum tipStatusaLeta { get; set; }
-
-        public StatusLeta() { }
-    }
+  
 }

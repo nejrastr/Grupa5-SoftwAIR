@@ -15,7 +15,7 @@ namespace SoftwAIR_Alpha.Models
         [Required]
         public Let polazniLet { get; set; }
         [Required]
-        public Klasa klasa { get; set; }
+        public EnumKlasa klasa { get; set; }
         [Required]
         [Range(0.1, double.MaxValue, ErrorMessage = "Vrijednost mora biti veca od 0!")]
         public double cijena { get; set; }
@@ -23,7 +23,7 @@ namespace SoftwAIR_Alpha.Models
         #endregion
 
         #region Constructor
-        public Karta(int ID, Let polazniLet, Klasa klasa, double cijena, Let povratniLet)
+        public Karta(int ID, Let polazniLet, EnumKlasa klasa, double cijena, Let povratniLet)
         {
             this.ID = ID;
             this.polazniLet = polazniLet;
@@ -36,7 +36,7 @@ namespace SoftwAIR_Alpha.Models
         #endregion
 
         #region Methods
-        public void IzaberiKlasu(Klasa klasa) {
+        public void IzaberiKlasu(EnumKlasa klasa) {
             this.klasa = klasa;
         }
         public void posaljiKartuNaMail(String mail) { 

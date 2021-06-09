@@ -39,12 +39,12 @@ namespace SoftwAIR_Alpha.Models
         public Boolean naPopustuZaLoyalty { get; set; }
 
         [Required]
-        [EnumDataType(typeof(StatusLeta))]
-        public StatusLeta statusLeta { get; set; }
+        [EnumDataType(typeof(EnumStatusLeta))]
+        public EnumStatusLeta statusLeta { get; set; }
         #endregion
 
         #region Constructor
-        public Let(int ID, Lokacija polazak, Lokacija dolazak, Avion avion, DateTime vrijemePolaska, DateTime vrijemeDolaska, Double osnovnaCijena, Boolean naPopustuZaLoyalty, StatusLeta statusLeta)
+        public Let(int ID, Lokacija polazak, Lokacija dolazak, Avion avion, DateTime vrijemePolaska, DateTime vrijemeDolaska, Double osnovnaCijena, Boolean naPopustuZaLoyalty, EnumStatusLeta statusLeta)
         {
             this.ID = ID;
             this.polazak = polazak;
@@ -61,7 +61,7 @@ namespace SoftwAIR_Alpha.Models
         #endregion
 
         #region Methods
-        public void promjeniStatus(StatusLeta status) 
+        public void promjeniStatus(EnumStatusLeta status) 
         {
             statusLeta = status;
         }

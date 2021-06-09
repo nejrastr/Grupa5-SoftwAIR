@@ -41,7 +41,6 @@ namespace SoftwAIR_Alpha.Models
             this.lokacijaPolaska = lokacijaPolaska;
             this.datumPovratka = datumPovratka;
             this.listaKarata = listaKarata;
-            
         }
         public KupovinaKarte() { }
         #endregion
