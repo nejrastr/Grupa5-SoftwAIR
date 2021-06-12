@@ -24,13 +24,20 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>   
+                        </li>
                         @if (User.IsInRole("Administrator"))
                         {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Avion" asp-action="Index">Avioni</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Avion" asp-action="Index">Avioni</a>
+                            </li>
                         }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="GiftKodovi" asp-action="Index">GiftKodovi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Letovi" asp-action="Index">Letovi</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>

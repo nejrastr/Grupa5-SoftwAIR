@@ -10,8 +10,10 @@
     <WebStackScaffolding_DbContextTypeFullName>SoftwAIR_Alpha.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <_SelectedScaffolderID>IdentityScaffolder</_SelectedScaffolderID>
-    <_SelectedScaffolderCategoryPath>root/Identity</_SelectedScaffolderCategoryPath>
+    <_SelectedScaffolderID>MvcControllerWithContextScaffolder</_SelectedScaffolderID>
+    <_SelectedScaffolderCategoryPath>root/Common</_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ViewDialogWidth>800</WebStackScaffolding_ViewDialogWidth>
+    <NameOfLastUsedPublishProfile>C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\Properties\PublishProfiles\IISProfile.pubxml</NameOfLastUsedPublishProfile>
+    <WebStackScaffolding_LayoutPageFile />
   </PropertyGroup>
 </Project>

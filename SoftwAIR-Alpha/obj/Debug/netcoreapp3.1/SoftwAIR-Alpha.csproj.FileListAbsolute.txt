@@ -360,3 +360,13 @@ C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\S
 C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\SoftwAIR-Alpha.csproj.CopyComplete
 C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\SoftwAIR-Alpha.genruntimeconfig.cache
 C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\GiftKodovi\Create.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\GiftKodovi\Delete.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\GiftKodovi\Details.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\GiftKodovi\Edit.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\GiftKodovi\Index.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Letovi\Create.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Letovi\Delete.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Letovi\Details.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Letovi\Edit.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Letovi\Index.cshtml.g.cs
