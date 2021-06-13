@@ -370,3 +370,13 @@ C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\R
 C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Letovi\Details.cshtml.g.cs
 C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Letovi\Edit.cshtml.g.cs
 C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Letovi\Index.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Karta\Create.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Karta\Delete.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Karta\Details.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Karta\Edit.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Karta\Index.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Lokacija\Create.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Lokacija\Delete.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Lokacija\Details.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Lokacija\Edit.cshtml.g.cs
+C:\Users\johnny\Desktop\Grupa5-SoftwAIR\SoftwAIR-Alpha\obj\Debug\netcoreapp3.1\Razor\Views\Lokacija\Index.cshtml.g.cs

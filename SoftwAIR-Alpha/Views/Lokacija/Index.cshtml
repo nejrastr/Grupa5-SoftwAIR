@@ -1,18 +1,17 @@
-﻿@model IEnumerable<SoftwAIR_Alpha.Models.GiftKod>
+﻿@model IEnumerable<SoftwAIR_Alpha.Models.Lokacija>
 
 @{
     ViewData["Title"] = "Index";
 }
 
 <h1>Index</h1>
+
 @if (User.IsInRole("Administrator"))
 {
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
 }
-
-
 <style>
     body {
         background-image: url(https://wallpapercave.com/wp/wp6903511.jpg);
@@ -20,15 +19,14 @@
         background-size: cover;
     }
 </style>
-
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.kod)
+                @Html.DisplayNameFor(model => model.grad)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.trenutniStatus)
+                @Html.DisplayNameFor(model => model.aerodrom)
             </th>
             <th></th>
         </tr>
@@ -38,24 +36,22 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.kod)
+                    @Html.DisplayFor(modelItem => item.grad)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.trenutniStatus)
+                    @Html.DisplayFor(modelItem => item.aerodrom)
                 </td>
                 <td>
-
-
                     @if (User.IsInRole("Administrator"))
                     {
-                        <a asp-action="Edit" asp-route-id="@item.id">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.ID">Details</a>
+                    }
 
-                        <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
-                    }
-                    @if (User.IsInRole("Student"))
-                    {
-                        <a asp - action="Details" asp-route-id="@item.">Kupi</a>
-                    }
+
+
+
                 </td>
             </tr>
         }

@@ -1,17 +1,17 @@
-﻿@model IEnumerable<SoftwAIR_Alpha.Models.GiftKod>
+﻿@model IEnumerable<SoftwAIR_Alpha.Models.Karta>
 
 @{
     ViewData["Title"] = "Index";
 }
 
 <h1>Index</h1>
+
 @if (User.IsInRole("Administrator"))
 {
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
 }
-
 
 <style>
     body {
@@ -21,14 +21,15 @@
     }
 </style>
 
+
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.kod)
+                @Html.DisplayNameFor(model => model.klasa)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.trenutniStatus)
+                @Html.DisplayNameFor(model => model.cijena)
             </th>
             <th></th>
         </tr>
@@ -38,24 +39,23 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.kod)
+                    @Html.DisplayFor(modelItem => item.klasa)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.trenutniStatus)
+                    @Html.DisplayFor(modelItem => item.cijena)
                 </td>
                 <td>
-
-
                     @if (User.IsInRole("Administrator"))
                     {
-                        <a asp-action="Edit" asp-route-id="@item.id">Edit</a>
-
-                        <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.ID"> Delete </a>
                     }
                     @if (User.IsInRole("Student"))
                     {
-                        <a asp - action="Details" asp-route-id="@item.">Kupi</a>
+                        <a asp - action="Details" asp-route-id="@item.ID">Kupi</a>
                     }
+
+
                 </td>
             </tr>
         }
